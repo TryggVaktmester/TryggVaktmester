@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trygg Vaktmester</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header .header-content h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header .header-content p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #ffcc00;
+            color: #333;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .cta-button:hover {
+            background: #ffaa00;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            color: #0073e6;
+        }
+
+        .service-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .service-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service-item h3 {
+            color: #0073e6;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            text-align: center;
+            width: 200px;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        form {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #005bb5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Trygg Vaktmester</h1>
+            <p>Din pålitelige partner for eiendomsvedlikehold</p>
+            <a href="#contact" class="cta-button">Ring oss på 406 00 219</a>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2>Våre Tjenester</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Plenklipping og Hagearbeid</h3>
+                <p>Få en velstelt hage uten stress. Vi tar oss av alt!</p>
+            </div>
+            <div class="service-item">
+                <h3>Snømåking og Strøing</h3>
+                <p>Hold eiendommen trygg og snøfri i vinter.</p>
+            </div>
+            <div class="service-item">
+                <h3>Reparasjoner</h3>
+                <p>Små og store reparasjoner, utført med kvalitet og presisjon.</p>
+            </div>
+            <div class="service-item">
+                <h3>Avfallshåndtering</h3>
+                <p>Vi sørger for at avfallet blir håndtert på en miljøvennlig måte.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Om oss</h2>
+        <p>
+            Hos Trygg Vaktmester er vi et nytt firma med et sterkt engasjement for å tilby pålitelig og kvalitetsbevisst service. Selv om vi er nye i bransjen, er vi ivrige etter å lære og forbedre oss for hver oppgave vi tar på oss. Vi setter vår ære i å levere godt håndverk og ser fram til å bygge et solid rykte ved å alltid yte vårt beste.
+        </p>
+    </section>
+
+    <section id="vaktmesterne">
+        <h2>Vaktmesterne</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="bilder/elis_solvberg_eriksen.jpg" alt="Elias Sølvberg Eriksen">
+                <p>Elias Sølvberg Eriksen</p>
+            </div>
+            <div class="team-member">
+                <img src="bilder/georg_amundrod.jpg" alt="Georg Amundrød">
+                <p>Georg Amundrød</p>
+            </div>
+            <div class="team-member">
+                <img src="bilder/andreas_lyngholt_osland.jpg" alt="Andreas Lyngholt Osland">
+                <p>Andreas Lyngholt Osland</p>
+            </div>
+            <div class="team-member">
+                <img src="bilder/nikolai_haavik.jpg" alt="Nikolai Haavik">
+                <p>Nikolai Haavik</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pris</h2>
+        <p>
+            Vi forstår at hvert oppdrag er unikt, og derfor kan vi ikke gi en eksakt pris før vi har vurdert eiendommen. Vi ønsker å sikre at vi gir deg en rettferdig og nøyaktig pris basert på oppdragets spesifikasjoner.
+        </p>
+        <p>
+            Vær oppmerksom på at transportkostnaden for å komme til eiendommen er 250 kr.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt oss</h2>
+        <p>Har du spørsmål eller ønsker å avtale en tjeneste? Ta kontakt i dag!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Navn" required>
+            <input type="email" name="email" placeholder="E-post" required>
+            <textarea name="message" placeholder="Din melding" required></textarea>
+            <button type="submit">Send melding</button>
+        </form>
+        <p>Du kan også ringe oss på: <a href="tel:40600219">406 00 219</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Trygg Vaktmester - Alle rettigheter reservert.</p>
+    </footer>
+</body>
+</html>
